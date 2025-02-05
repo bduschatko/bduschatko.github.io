@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title:  "Ionic Liquids"
 type: "paper"
 link: https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.4c01942

@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: base
 title:  "Temperature CG"
 type: "preprint"
 link: https://arxiv.org/abs/2405.19386

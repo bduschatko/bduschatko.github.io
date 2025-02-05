@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 title:  "Chiral Floquet"
 type: "paper"
 link: https://link.aps.org/doi/10.1103/PhysRevB.98.054309

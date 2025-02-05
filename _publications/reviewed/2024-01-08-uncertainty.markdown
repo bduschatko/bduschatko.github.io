@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title:  "Active Learning"
 type: "paper"
 link: https://www.nature.com/articles/s41524-023-01183-5

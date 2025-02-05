@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 title:  "Machine Learning Exchange Correlation Functionals"
 type: "current"
 img: /images/functionals.png
