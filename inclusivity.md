@@ -9,5 +9,5 @@ As a non-binary / transgender identifying individual, inclusivity has a particul
 - help others navigate spaces that are traditionally oppressive to queer people
 - engage in outreach to promote the growth of talent for all individuals
 
-I am more than happy to speak with other advocates, and you are welcome to contact me. Any queer scientist who has felt a lack of visibility or support in the community is also encouraged to reach out to me. You are seen, you are valued, and you belong. 
+I am more than happy to speak with other advocates, and you are welcome to [contact me]({{ site.email }}). Any queer scientist who has felt a lack of visibility or support in the community is also encouraged to reach out to me. You are seen, you are valued, and you belong. 
 
