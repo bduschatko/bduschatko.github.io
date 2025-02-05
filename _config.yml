@@ -1,0 +1,33 @@
+#
+#
+# Jekyll uses this file to create the site variable that html files can reference
+#
+# All variables created here are accessed using {{ site.varname }} where {{ }} is 
+# html syntax for variable access
+#
+# Similarly, each page gets a {{ page }} variable with attributes defined in the
+# front matter of those markdown files
+#
+
+title: Blake (Riley) Duschatko
+subtitle: "Pronouns: she/they"
+email: https://formkeep.com/p/f4927d5f733beb04bead59a43d069051
+linkedin: https://www.linkedin.com/in/blake-duschatko-46159b137
+google-analytics:
+github-user: https://github.com/bduschatko
+github-project: https://github.com/bduschatko/bduschatko.github.io
+
+# Build settings
+#theme: custom_theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+collections:
+  about:
+  publications:
+  projects:
+  inclusivity:
+  lessons:
+    output: true
