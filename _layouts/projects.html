@@ -1,0 +1,31 @@
+---
+layout: base
+---
+
+{% for project in site.projects reversed %}
+
+<div class="content-entry-card">
+
+    <!--<img  style="padding-right:20px; vertical-align: middle;#position: relative; #top:-50%" src={{project.img}} float="left" width="100px" height="100px"> -->
+    <img style="float: left; width: 100px; height: 100px; padding-right: 20px; vertical-align: middle; margin-top: 1rem" src={{project.img}}>
+    <div class="content-card-text">
+      <h3 style="#position: relative; #top:-10%"> {{ project.title }} </h3>
+      {{ project.content }}
+
+      {% if project.publication-url != "none" %}
+      <b>Publications:</b>
+      {% for purl in project.publication-url %}
+        <a href="{{ purl | relative_url }}" style="margin-right: inherit;">
+          {{ purl | escape }}
+        </a>
+      {% endfor %}
+      {% endif %}
+
+      {% if project.github-url != "none" %}
+        <h4>Code:</h4>
+      {% endif %}
+
+    </div>
+</div>
+
+{% endfor %}

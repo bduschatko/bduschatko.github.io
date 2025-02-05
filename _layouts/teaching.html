@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<!-- Display page title if available -->
+{%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+{% for lesson in site.lessons %}
+
+<div class="content-entry-card">
+
+  <h3>
+    <a class="post-link" href="{{ lesson.url | relative_url }}">
+      {{ lesson.title | escape }}
+    </a>
+  </h3>
+
+</div>
+
+{% endfor %}
+

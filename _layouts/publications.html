@@ -1,0 +1,50 @@
+---
+layout: base
+---
+
+<h3> Published Papers </h3>
+<div class="content-entry-card">
+{% for project in site.publications reversed %}
+
+  {% if project.type == "paper" %} 
+
+  <a href="{{ project.link }}">
+  <p>{{ project.content }}</p>
+  </a><p>   </p>
+
+  {% endif %}
+
+{% endfor %}
+</div>
+
+<h3> Preprints </h3>
+<div class="content-entry-card">
+{% for project in site.publications reversed %}
+
+  {% if project.type == "preprint" %} 
+
+  <a href="{{ project.link }}">
+  <p>{{ project.content }}</p>
+  </a>
+
+  {% endif %}
+
+{% endfor %}
+</div>
+
+
+<h3> Theses </h3>
+<div class="content-entry-card">
+{% for project in site.publications reversed %}
+
+  {% if project.type == "thesis" %} 
+
+  <a href="{{ project.link }}">
+  <p>{{ project.content }}</p>
+  </a>
+
+  {% endif %}
+
+{% endfor %}
+</div>
+
