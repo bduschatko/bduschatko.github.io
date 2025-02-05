@@ -1,0 +1,75 @@
+/*
+ * Style native HTML elements
+ */
+
+/* Style for HTML body element */
+body {
+  font-family: Open Sans;
+  color: #585E61; /* Color of main text */
+  background-color: #D0D4D7; /* color of right panel */
+}
+
+/* Style settings applied to all elements */
+element.style{
+  font-family: Open Sans;
+  padding-right: 0px;
+  border-right-width: 40px;
+  margin-right: 0px;
+}
+
+p {
+  padding-top: 0.25px;
+  padding-bottom: 0.25px;
+}
+
+a:link {
+  color: $theme-color-primary-light;
+}
+
+a:visited {
+  color: $theme-color-secondary-dark;
+}
+
+a:hover {
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid $theme-color-secondary-light;
+  margin: 1em 0;
+  padding: 0;;
+}
+
+/* Style for HTML unordered list element */
+ul {
+  list-style-type: square;
+  margin: 1% 2%;
+  padding: 0;
+  /*background-color: #20211D; outline color of menu */ 
+}
+
+li {
+  padding: 7.5px;
+}
+
+/* Style for HTML ordered list with lowercase (a) letters element */
+li a {
+  display: block; 
+  margin: 5% 7.5%;
+  color: #D0D4D7; /* Change menu color text, no hover*/ 
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Style for HTML ordered list elements that are active links */
+li a.active {
+  background-color: #20211D; 
+  color: #000;
+}
+
+li a:hover:not(.active) {
+  background-color: #AAABAD; /* background of menu when hovering */
+  color: #20211D; /* text color of menu when hovering */
+}
