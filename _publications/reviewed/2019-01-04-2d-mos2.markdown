@@ -1,0 +1,12 @@
+---
+layout: cards
+title:  "MoS2"
+type: "paper"
+link: https://www.nature.com/articles/s41563-020-0636-5
+date:   2020-08-01 22:57:45 -0400
+date-text: May 27th, 2019
+categories: jekyll publications
+---
+
+Xuezeng Tian, Dennis S. Kim, Shize Yang, Christopher J. Ciccarino, Yongji Gong, Yongsoo Yang, Yao Yang, __Blake R. Duschatko__, Pulickel M. Ajayan, Juan-Carlos Idrobo, Prineha Narang, and Jianwei Miao. "Correlating 3D crystal defects and electronic properties of 2D materials at the single-atom level," _Nature Materials_ __19__ (8), 867-873 (2020)
+

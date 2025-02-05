@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Chiral Floquet"
+type: "paper"
+link: https://link.aps.org/doi/10.1103/PhysRevB.98.054309
+date:   2018-08-30 22:57:45 -0400
+date-text: May 27th, 2019
+categories: jekyll publications
+---
+
+__Blake R. Duschatko__, Philipp T. Dumitrescu, and Andrew C. Potter. "Tracking the quantized information transfer at the edge of a chiral Floquet phase," _Physical Review B_ __98__, 054309 (2018).

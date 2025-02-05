@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "Ionic Liquids"
+type: "paper"
+link: https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.4c01942
+date:   2024-07-18 22:57:45 -0400
+date-text: July 17th, 2024
+categories: jekyll publications
+---
+
+Zachary A. H. Goodwin, Malia B. Wenny, Julia H. Yang, Andrea Cepellotti, Jinxuan Ding, Kyle Bystrom, __Blake R. Duschatko__, Anders Johansson, Lixin Sun, Simon Batzner, Albert Musaelian, Jarad A. Mason, Boris Kozinsky, and Nicola Molinari. "Transferability and accuracy of ionic liquid simulations with equivariant machine learning interatomic potentials," _J. Phys. Chem. Lett._ __15__ (30), 7539-7547 (2024).

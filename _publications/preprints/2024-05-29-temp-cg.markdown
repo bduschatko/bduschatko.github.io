@@ -1,0 +1,11 @@
+---
+layout: main
+title:  "Temperature CG"
+type: "preprint"
+link: https://arxiv.org/abs/2405.19386
+date:   2024-05-29 22:57:45 -0400
+date-text: May 29th, 2024
+categories: jekyll publications
+---
+
+__Blake R. Duschatko__, Xiang Fu, Cameron Owen, Yu Xie, Albert Musaelian, Tommi Jaakkola, and Boris Kozinsky. "Thermodynamically Informed Multimodal Learning of High-Dimensional Free Energy Models in Molecular Coarse Graining," arXiv preprint arXiv:2405.19386
