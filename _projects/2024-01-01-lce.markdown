@@ -1,0 +1,11 @@
+---
+layout: base
+title:  "Mesophases of Liquid Crystal Elastomers"
+img: /images/lce.png
+date:   2024-01-01 22:57:45 -0400
+publication-url: none
+github-url: none
+categories: jekyll projects
+---
+
+Research into soft matter materials is sure to advance the state-of-the-art in applications such as artificial tissue. One example of particularly promising soft matter materials are liquid crystal elastomers (LCE), which are networks of long, rigid molecules linked together by other molecules. The linkers in the network can lead to the emergence of different mesophases in unique ways. Using molecular dynamics along with experimental insights, we aim to explore how these choices impact the phase diagrams of LCE systems in addition to the impact of different choices in force fields.
