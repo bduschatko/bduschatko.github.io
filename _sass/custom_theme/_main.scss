@@ -84,6 +84,7 @@
 }
 
 .content-card-header-title {
+  line-height: 4rem;  
 }
 
 .content-card-text {
@@ -230,7 +231,8 @@
     }
     
     .content-card-header-title {
-        display: block
+        display: block;
+        line-height: 2rem;
     }
 
     a {
