@@ -6,10 +6,12 @@ layout: base
 
 <div class="content-entry-card">
 
-    <!--<img  style="padding-right:20px; vertical-align: middle;#position: relative; #top:-50%" src={{project.img}} float="left" width="100px" height="100px"> -->
-    <img style="float: left; width: 100px; height: 100px; padding-right: 20px; vertical-align: middle; margin-top: 1rem" src={{project.img}}>
+    <div class="content-card-header">
+      <img class="project-pic" src={{project.img}}>
+        <h3 style="vertical-align: middle; line-height: 2rem"> {{ project.title }} </h3>
+    </div>
+
     <div class="content-card-text">
-      <h3 style="#position: relative; #top:-10%"> {{ project.title }} </h3>
       {{ project.content }}
 
       {% if project.publication-url != "none" %}

@@ -18,6 +18,14 @@
   vertical-align: middle;
 }
 
+.project-pic {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-right: 20px; 
+  vertical-align: middle;
+}
+
 .main-nav-button {
     display: inline-block;
     margin-bottom: 1rem;
@@ -69,8 +77,17 @@
   margin-bottom: 50px;
 }
 
+.content-card-header {
+  display:block;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+
+.content-card-header-title {
+}
+
 .content-card-text {
-  margin-left: 120px;
+  margin-left: 20px;
   margin-right: 1px;
 }
 
@@ -188,6 +205,11 @@
         padding-left: 0px;
     }
 
+    .project-pic {
+      display: block;
+      padding-right: 100%
+    }
+
     .main-nav-button {
         /*max-width: 36rem;*/
         display:block;
@@ -205,6 +227,10 @@
     }
 
     .content-entry-card {
+    }
+    
+    .content-card-header-title {
+        display: block
     }
 
     a {
